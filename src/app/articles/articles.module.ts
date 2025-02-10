@@ -8,11 +8,14 @@ import { ArticleDetailPage } from './article-detail/article-detail.page';
 
 @NgModule({
   imports: [
+    ArticlesPageRoutingModule,
     CommonModule,
     FormsModule,
-    IonicModule,
-    ArticlesPageRoutingModule,
+    IonicModule
   ],
-  declarations: [ArticlesListPage, ArticleDetailPage]
+  declarations: [
+    ArticlesListPage,
+    ArticleDetailPage,
+  ]
 })
-export class ArticlesPageModule {}
+export class ArticlesModule {}

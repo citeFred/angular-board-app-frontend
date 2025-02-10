@@ -32,6 +32,6 @@ export class ArticlesListPage implements OnInit {
 
   // route Article detail page
   viewArticle(id: number) {
-    this.router.navigate([`${id}/detail`]);
+    this.router.navigate([`detail/${id}`]);
   }
 }
