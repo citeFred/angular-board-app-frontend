@@ -8,10 +8,10 @@ import { ArticleDetailPage } from './article-detail/article-detail.page';
 
 @NgModule({
   imports: [
-    ArticlesPageRoutingModule,
     CommonModule,
     FormsModule,
-    IonicModule
+    IonicModule,
+    ArticlesPageRoutingModule,
   ],
   declarations: [
     ArticlesListPage,
